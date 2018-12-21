@@ -1,5 +1,5 @@
 # Security-Monitoring-Visualisation-System
-VIS components for a security system, to monitor the state and confirm the system's health running. All codes were wrote based on `D3.js version 3.x`.
+This visualisation system is used to monitor the state and confirm the system's health running. All codes were wrote based on `D3.js version 3.x`.
 
 ## Introduction
 
@@ -20,8 +20,7 @@ function displayMem()
 For complete usage of all kinds of charts, please see the complete [Docs](./DOC.md).
 
 ## DEMO
-
-Here are some pictures of the running cases, includes both visualization cards, charts and customized monitor map. See more examples at [here](https://hijiangtao.github.io/ss-vis-component/).
+- [Weblink](https://mithileysh.github.io/Security-Monitoring-Visualisation-System/)
 
 ![DEMO 1](/assets/SSComponent-Intro-1.png 'DEMO 1')
 
@@ -30,5 +29,5 @@ Here are some pictures of the running cases, includes both visualization cards, 
 ![DEMO 3](/assets/SSComponent-Intro-3.png 'DEMO 3')
 
 
-
+Credits: Joe Jiang
 
