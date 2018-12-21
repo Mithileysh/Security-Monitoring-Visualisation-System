@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang='en'>
 <head>
-	<title>Home | A Visualization System Prototype of Security Monitoring Product</title>
+	<title>Security Monitoring Visualisation System</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -11,8 +11,7 @@
 <body id='table'>
 <div class='container'>
 	<div class="col-sm-12 col-md-12">
-		<h2>An Integrated Version of Security Monitor Vis System</h2>
-		<p>You can find the codes here in <a href="https://github.com/hijiangtao/ss-vis-component/">Github Repo</a></p>
+		<h1>Security Monitoring Visualisation System</h1>
 	</div>
 </div>
 
@@ -53,7 +52,7 @@
 			</div>
 			<div class="panel-body">
 				<div class='col-xm-2 col-sm-2 col-md-2 panel-checkbox hidden-xs hidden-sm'>
-					<p>限选5个：</p>
+					<p>Issues：</p>
 					<form id='checkbox_opt'>
 						<input id="issue1" class="scatter_checkbox" type="checkbox" name="issue1" value="1" v-on="click:checkOpt" checked="true"/><text> Issue 1</text><br>
 						<input id="issue2" class="scatter_checkbox" type="checkbox" name="issue2" value="2" v-on="click:checkOpt" checked="true"/><text> Issue 2</text><br>
@@ -74,7 +73,7 @@
 				</div>
 
 				<div class='panel-checkbox-xs visible-xs-block visible-sm-block'>
-					<p>限选5个：</p>
+					<p>Issues：</p>
 					<form id='checkbox_opt'>
 						<input id="issue1" class="scatter_checkbox" type="checkbox" name="issue1" value="1" v-on="click:checkOpt" checked="true"/><text> Issue 1</text>
 						<input id="issue2" class="scatter_checkbox" type="checkbox" name="issue2" value="2" v-on="click:checkOpt" checked="true"/><text> Issue 2</text>
@@ -217,63 +216,9 @@
 
 </div>
 
-<div class='container'>
-	<div class="col-sm-12 col-md-12">
-		<h3>EXPERIMENT LAB</h3>
-	</div>
-	<div class="col-sm-12 col-md-12">
-		<div class="panel panel-card">
-			<div class='panel-title'>
-				<h5 class='no-margin m-b'></h5>
-			</div>
-			<div class="panel-body">
-				<p><a href="three-test-cubes.html">Three Cubes Test</a> Use mesh to test cube's display in Three.js.</p>
-				<p><a href="three-test-texture.html">Three Texture Test</a> Use a map picture to test the effect of Three.js texture, combined with texture both on ground and particleSystem.</p>
-				<p><a href="three-test-index.html">Three Particles and Index Test</a> Simulate lots of particles to test the data updating and animation styles in Three.js.</p>
-				<p><a href="css3d-test-people.html">CSS 3D People Monitor Test</a> Use pure CSS 3D Stylesheets and JavaScript to simulate the 3D space (such as webgl tech) effect.</p>
-			</div>
-		</div>
-	</div>
 
-</div>
 
-<div class='container'>
-	<div class="col-sm-12 col-md-12">
-		<h3>COMMENTS</h3>
-	</div>
-	<div class="col-sm-12 col-md-12">
-		<div class="panel panel-card">
-			<div class="panel-title">
-				<h5 class='no-margin m-b'></h5>
-			</div>
-			<div class="panel-body">
-				<div class="ds-thread" data-thread-key="ss-vis-component" data-url="http://hijiangtao.github.io/ss-vis-component" data-title="Home | A Visualization System Prototype of Security Monitoring Product" ></div>
-				<script type="text/javascript">
-				var duoshuoQuery = {short_name:"datablog"};
-					(function() {
-						var ds = document.createElement('script');
-						ds.type = 'text/javascript';ds.async = true;
-						ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-						ds.charset = 'UTF-8';
-						(document.getElementsByTagName('head')[0] 
-						 || document.getElementsByTagName('body')[0]).appendChild(ds);
-					})();
-				</script>
-			</div>
-		</div>
-	</div>
-</div>
 
-<div class='container'>
-	<div class="col-sm-12 col-md-12">
-		<hr style='border: 1px solid white'>
-		<footer>
-			<p>
-				<a href="https://github.com/hijiangtao/">Github</a> | <a href="https://hijiangtao.github.io/">Joe's Blog</a> | <script src="https://s96.cnzz.com/z_stat.php?id=1000257487&web_id=1000257487" language="JavaScript"></script>
-			</p>
-		</footer>
-	</div>
-</div>
 
 <script src='./javascripts/d3.v3.min.js'></script>
 <script src='./javascripts/jquery.min.js'></script>
