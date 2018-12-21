@@ -21,7 +21,13 @@ For complete usage of all kinds of charts, please see the complete [Docs](./DOC.
 
 ## DEMO
 
+Here are some pictures of the running cases, includes both visualization cards, charts and customized monitor map. See more examples at [here](https://hijiangtao.github.io/ss-vis-component/).
 
+![DEMO 1](/assets/SSComponent-Intro-1.png 'DEMO 1')
+
+![DEMO 2](/assets/SSComponent-Intro-2.png 'DEMO 2')
+
+![DEMO 3](/assets/SSComponent-Intro-3.png 'DEMO 3')
 
 
 
